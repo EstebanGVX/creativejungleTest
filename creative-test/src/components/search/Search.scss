@@ -1,0 +1,23 @@
+.search-jungle {
+    width: 321px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    input {
+        min-width: 321px;
+        height: 46px;
+        border-radius: 41px;
+        border: 1px solid #4FC0D0;
+        background: #FFF;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+        padding-left: 22px;
+        padding-right: 80px;
+    }
+
+    .icon-search{
+        img{
+            vertical-align: middle;
+            margin-left: -40px;
+        }
+    }
+}

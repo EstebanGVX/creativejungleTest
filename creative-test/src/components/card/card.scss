@@ -1,0 +1,72 @@
+.card-component {
+    position: relative;
+    text-align: center;
+    width: 350px;
+    min-height: 251px;
+    background-color: white;
+    border-radius: 23px;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
+    margin: auto;
+    margin-bottom: 20px;
+
+    .img-eat {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 37px;
+    }
+
+    .header-card {
+        height: 98px;
+        background: #1B6B93;
+        border-radius: 23px 23px 0px 0px;
+
+        .icon-delete {
+            cursor: pointer;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background-color: white;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+        }
+    }
+
+    .body-card {
+
+        padding-top: 42px;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        line-height: normal;
+        text-align: center;
+
+        .title-card {
+            width: 335px;
+            color: #164B60;
+            font-size: 14px;
+            font-weight: 500;
+            margin: auto;
+
+        }
+
+        .text-card {
+            width: 301px;
+            color: #164B60;
+            font-family: 'Poppins';
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: left;
+            margin: auto;
+            margin-top: 5px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+
+}
